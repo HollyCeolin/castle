@@ -17,7 +17,8 @@ let rollbar = new Rollbar({
 // record a generic message and send it to Rollbar
 rollbar.log("Hello world!");
 rollbar.log('test')
-const {getHTML, getCSS, getJS} = require('./controller')
+const {getHTML, getCSS, getJS,} = require('./controller')
+
 app.get('/', getHTML)
 app.get('/css', getCSS)
 app.get('/js', getJS)
