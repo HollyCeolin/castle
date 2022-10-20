@@ -1,0 +1,12 @@
+h1 {
+    font-family: 'Georgia', Times New Roman, Times, serif;
+    color: lightcoral;
+}
+
+img {
+    display: flex;
+    height: 500px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+}
