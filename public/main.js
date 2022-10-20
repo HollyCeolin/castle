@@ -1,4 +1,4 @@
-const input = document.querySelector('input')
+const input = document.querySelector('.name-input')
 const button = document.querySelector('button')
 const addGuest = (evt) => {
     alert('added')
