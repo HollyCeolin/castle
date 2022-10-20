@@ -1,13 +1,16 @@
-const input = document.querySelector('.name-input')
-const button = document.querySelector('button')
+//const input = document.querySelector('.name-input')
+const img = document.querySelector('img')
+const button = document.querySelector('.name-input')
 const addGuest = (evt) => {
     alert('added')
     
 }
 button.addEventListener('click', addGuest)
 
-
-
+const clickImage = (evt) => {
+    alert('image clicked')
+}
+img.addEventListener('click', clickImage)
 
 
 
